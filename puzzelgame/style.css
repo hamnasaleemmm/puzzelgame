@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+.logo{
+height:140px;
+width:340px;
+object-fit: cover;
+margin-top: 1 auto;
+}
+#box{
+    height:360px;
+    width:360px;
+    background-color: black;
+    margin:0 auto;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 3px 5% black;
+}
+#box img{
+    width:118px;
+    height: 118px;
+    border:0.5px solid white;
+    cursor: pointer;
+}
+.noborder{
+    border:none;
+}
